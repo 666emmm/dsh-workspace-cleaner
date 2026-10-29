@@ -1,0 +1,13 @@
+# dsh-workspace-cleaner bundle patch.
+#
+# One host row: the plugin that serves /workspace-cleaner/api over the DSH
+# webserver, owns the session-folder links, and exposes the two agent tools.
+# The browser half is loaded through the `dsh.client` manifest in package.json.
+#
+# Only additive `insert` rows: a patch that overrides a shipped row replaces
+# that row's whole `config`.
+
+- insert:
+    - id: workspace-cleaner
+      name: dsh-workspace-cleaner
+      config: {}

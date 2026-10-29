@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Plugin runtime state — never commit a machine's own configuration
+settings.json
+links.json
+ai-session.json
+journal.jsonl
+pending-*.json
+
+# Test scratch
+test/tmp/
+*.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

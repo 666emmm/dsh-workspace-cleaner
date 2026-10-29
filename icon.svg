@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Workspace Cleaner">
+  <title>Workspace Cleaner</title>
+  <!-- Brand-tinted folder: the workspace being tidied. -->
+  <path d="M6 18a4 4 0 0 1 4-4h13.2a4 4 0 0 1 3.1 1.5L29.6 19H54a4 4 0 0 1 4 4v25a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4z" fill="#247bbf"/>
+  <!-- Interior: three loose marks being drawn into one line. -->
+  <rect x="15" y="26" width="7" height="3" rx="1.5" fill="#bfe0ff"/>
+  <rect x="15" y="33" width="11" height="3" rx="1.5" fill="#bfe0ff"/>
+  <rect x="15" y="40" width="5" height="3" rx="1.5" fill="#bfe0ff"/>
+  <!-- The sweep: what the plugin does to them. -->
+  <path d="M30 38.5 35 43.5 45 30.5" fill="none" stroke="#8fe3b0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Workspace Cleaner",
+    "description": "One-click tidying for workspace folders: inventories loose files, scans for path dependencies, previews every move, and keeps session folders following session renames."
+  },
+  "navLabel": "Workspace Cleaner"
+}

@@ -1,0 +1,19 @@
+# Normalize line endings for source, and mark the encodings that matter.
+* text=auto eol=lf
+
+# Windows users must be able to run these directly.
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.js    text eol=lf
+*.mjs   text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.md    text eol=lf
+*.svg   text eol=lf
+
+# Keep binary files binary.
+*.png binary
+*.jpg binary
+*.webp binary
